@@ -11,6 +11,9 @@ export class RecipeListComponent implements OnInit {
   recipes: Recipe[] = [
     new Recipe('A test recipe',
       'some description',
+      'https://hips.hearstapps.com/delish/assets/17/31/1501791674-delish-chicken-curry-horizontal.jpg'),
+    new Recipe('Recipe 2',
+      'something 2',
       'https://hips.hearstapps.com/delish/assets/17/31/1501791674-delish-chicken-curry-horizontal.jpg')
   ];
 
